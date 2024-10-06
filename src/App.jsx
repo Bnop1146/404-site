@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'; 
 import { gsap } from 'gsap';
+import logo from './images/Yakk Air logo ( rehashed ).png';
 
 // Animating the 'h1' element
 gsap.to('h1', {
@@ -117,7 +118,11 @@ gsap.to('#tent3', {
 function App() {
   return (
     <div>
-      <h1>Page not found.</h1>
+      <div className='text-content'>
+        <img src={logo} alt='Yak logo'></img>
+        <h1>Sorry the page you are looking for, got sweept away and eaten by a monster</h1>
+        <h1 className='font-bold text-4xl'>But come back later for my new <span className='text-blue-700'>Website</span></h1>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" width="1226.887px" height="908px" viewBox="0 0 1226.887 908">
         <g id="water">
           <path
