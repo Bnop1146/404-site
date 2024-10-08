@@ -46,4 +46,8 @@ svg {
     margin-right: auto;
     margin-top: 70px;
   }
+
+  svg {
+    height: 35%;
+  }
 }
