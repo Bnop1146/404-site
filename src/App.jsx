@@ -122,8 +122,8 @@ function App() {
     <div>
       <div className='text-content'>
         <img src={logo} alt='Yak logo'></img>
-        <h1>Sorry the page you are looking for, got swept away and eaten by a monster</h1>
-        <h1 className='font-bold text-4xl second-header'>But come back later for my new <span className='text-blue-700'>Website</span></h1>
+        <h1>Beklager, men den ønskede side er blevet trukket ned i en vortex og er nu på en uventet rejse.</h1>
+        <h1 className='font-bold text-4xl second-header'>Kom tilbage senere for at se min nye <span className='text-blue-700'>Website</span></h1>
       </div>
       <div className='svg-container'>
         <svg xmlns="http://www.w3.org/2000/svg" width="1226.887px" height="908px" viewBox="0 0 1226.887 908">
